@@ -22,7 +22,7 @@ export default function Projects() {
 
   return (
     <div id="projects-anchor" className="z-20 mt-12 sm:mt-20 lg:mt-28">
-      <section id="projects" className="text-gray-400 bg-gray-900 body-font pt-16">
+      <section id="projects" className="text-gray-400 bg-gray-900 body-font mt-16 pt-32"> {/* Added pt-32 for extra padding at the top */}
         <div className="container px-4 sm:px-8 lg:px-16 mx-auto text-center lg:px-40 relative z-0">
           <div className="flex flex-col w-full mb-20">
             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -83,6 +83,7 @@ export default function Projects() {
     </div>
   );
 }
+
 
 
 
