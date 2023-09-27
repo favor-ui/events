@@ -5,7 +5,7 @@ import { skills } from "../data";
 export default function Skills() {
   return (
     <div id="skills-anchor" className="z-20 mt-12 sm:mt-20 lg:mt-28">
-      <section id="skills" className="text-gray-400 bg-gray-900 body-font mt-16 pt-16">
+      <section id="skills" className="text-gray-400 bg-gray-900 body-font mt-5 pt-10">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
